@@ -17,7 +17,7 @@ Step by step configuration to use YoloV4 Darknet framework to perform detection 
 5. OpenCV - [Download here](https://opencv.org/releases/)
 
 
-###  Mimmos XAI Program - [Clone or Download repository here](https://github.com/ShananSaravanan/mimmos-XAI_YOLOv4) 
+###  Mimos XAI Program - [Clone or Download repository here](https://github.com/ShananSaravanan/mimmos-XAI_YOLOv4) 
 *This repository provides important materials such as tools that are needed to run the program and also pre-trained models copyrighted under MIMOS Berhad. If model trained from scratch need to be put into use to utilize the XAI program, then the model has to be exported to this repository through it's respective configurations (.cfg and .weights) file.*
 
 Repository Contents
