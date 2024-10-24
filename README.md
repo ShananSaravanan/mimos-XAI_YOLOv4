@@ -21,12 +21,14 @@ Step by step configuration to use YoloV4 Darknet framework to perform detection 
 *This repository provides important materials such as tools that are needed to run the program and also pre-trained models copyrighted under MIMOS Berhad. If model trained from scratch need to be put into use to utilize the XAI program, then the model has to be exported to this repository through it's respective configurations (.cfg and .weights) file.*
 
 Repository Contents
- 1. [Detection Model Files](model) (.cfg and .weights) for :
+1. [Requirements](requirements.txt) **(mandatory to run program)** - run ```pip install -r requirements.txt```
+
+2. [Detection Model Files](model) (.cfg and .weights) for :
     - IdealVision2
     - IdealVision 3O
     - IdealVision 4
-2. [darknet2pytorch Tool](tool/darknet2pytorch.py) - to convert model to pytorch format
-3. [XAI Python Script](EigenCAM_yolov4.py) - to perform detection and utilize EigenCAM to show explanaibility based on the detections
+3. [darknet2pytorch Tool](tool/darknet2pytorch.py) - to convert model to pytorch format
+4. [XAI Python Script](EigenCAM_yolov4.py) - to perform detection and utilize EigenCAM to show explanaibility based on the detections
 
 # Used Documentations & Resources
 ### Darknet YOLOv4
@@ -48,3 +50,8 @@ Repository Contents
 ### *IdealVision 3O*
 ![IdealV3Omatrixcgraph](model/graphs/idealv3O_confusion_matrix.png)
 ![IdealV3Operformancegraph](model/graphs/idealv3O_performance.png)
+
+### *IdealVision 4*
+*Graph for IdealV4 is generic to two classes and not four classes due to lack of annotations provided for testing and validation. Performance metrics is also not given due to generic statistics and lack of detailed metrics such as IoU and so on.*
+
+![IdealV4matrixcgraph](model/graphs/idealv4_confusion_matrix.png)

@@ -23,7 +23,7 @@ COLORS = [(0, 255, 0), (0, 0, 255), (255, 0, 0),
           (255, 255, 0), (255, 0, 255), (0, 255, 255)]
 
 # Load class names from file
-model_name = "idealv4_mimmos"  # Use distinct variable name (for dynamic uses can be modified later on through GUI variables)
+model_name = "model/idealv4_mimmos"  # Use distinct variable name (for dynamic uses can be modified later on through GUI variables)
 class_name = []
 with open(f'{model_name}.names', 'r') as f:
     class_name = [cname.strip() for cname in f.readlines()]
