@@ -25,8 +25,8 @@ Repository Contents
 
 2. [Detection Model Files](model) (.cfg and .weights) for :
     - IdealVision2
-    - IdealVision 3O
-    - IdealVision 4
+    - IdealVision3O
+    - IdealVision4
 3. [darknet2pytorch Tool](tool/darknet2pytorch.py) - to convert model to pytorch format
 4. [XAI Python Script](EigenCAM_yolov4.py) - to perform detection and utilize EigenCAM to show explanaibility based on the detections
 
