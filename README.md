@@ -28,7 +28,7 @@ Repository Contents
     - IdealVision3O
     - IdealVision4
 3. [darknet2pytorch Tool](tool/darknet2pytorch.py) - to convert model to pytorch format
-4. [XAI Python Script](EigenCAM_yolov4.py) - to perform detection and utilize EigenCAM to show explanaibility based on the detections
+4. [XAI Python Script](EigenCAM_yolov4.py) - to perform detection and utilize EigenCAM to show explainability based on the detections
 
 # Used Documentations & Resources
 ### Darknet YOLOv4
