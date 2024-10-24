@@ -124,9 +124,9 @@ def parse_detections(detections):
 # Get boxes, colors, and names
 boxes, colors, names = parse_detections(detections)
 
-# Inspect the model layers to see available options
-for idx, layer in enumerate(cam_model.models):
-    print(f"Layer {idx}: {layer}")
+# To inspect the model layers to see available options
+# for idx, layer in enumerate(cam_model.models):
+#     print(f"Layer {idx}: {layer}")
 
 
 # Set target layers for EigenCAM
