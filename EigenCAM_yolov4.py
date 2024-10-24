@@ -23,7 +23,7 @@ COLORS = [(0, 255, 0), (0, 0, 255), (255, 0, 0),
           (255, 255, 0), (255, 0, 255), (0, 255, 255)]
 
 # Load class names from file
-model_name = "model/idealv4_mimmos"  # Use distinct variable name (for dynamic uses can be modified later on through GUI variables)
+model_name = "model/idealv2"  # Use distinct variable name (for dynamic uses can be modified later on through GUI variables)
 class_name = []
 with open(f'{model_name}.names', 'r') as f:
     class_name = [cname.strip() for cname in f.readlines()]
@@ -38,7 +38,7 @@ detection_model = cv.dnn_DetectionModel(net)  # model to be used (for detection)
 detection_model.setInputParams(size=(416, 416), scale=1/255, swapRB=True)
 
 # Load and preprocess the image
-image_path = "fail(iv4).jpg"  # test image (can be dynamically adjusted through GUI later on)
+image_path = "dataset/IdealVision2/fail2.jpg"  # test image (can be dynamically adjusted through GUI later on)
 img = np.array(Image.open(image_path))
 rgb_img = cv.cvtColor(img, cv.COLOR_RGB2BGR)  # Convert from RGB to BGR (OpenCV requirements)
 
